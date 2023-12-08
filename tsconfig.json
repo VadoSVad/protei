@@ -5,13 +5,22 @@
     "target": "es6",
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "src/js"
+    "outDir": "src/js/",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/js"]
+    }
   },
   "lib": [
     "es2015"
   ],
   "include": [
-    "src/js/index.ts",                         // Пути к исходным файлам TypeScript
+    "src/js/index.ts",                     // Пути к исходным файлам TypeScript
   ],
   "exclude": ["node_modules"]              // Исключение из компиляции
 }
