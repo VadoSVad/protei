@@ -1,0 +1,11 @@
+{
+  "name": "messenger_for_protei",
+  "version": "1.0.0 alpha 1.0",
+  "description": "Working on messenger for Protei using nodeJs, yarn, ts, React, MobX, Webpack, babel and other",
+  "main": "src/html/index.html",
+  "author": "VadoSVad",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
