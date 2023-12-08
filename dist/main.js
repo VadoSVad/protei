@@ -16,7 +16,7 @@
   \*************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst http_1 = __importDefault(__webpack_require__(Object(function webpackMissingModule() { var e = new Error(\"Cannot find module 'http'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())));\nconst port = 3000;\nconst server = http_1.default.createServer((req, res) => {\n    res.writeHead(200, { 'Content-Type': 'text/plain' });\n    res.end('Hello, this is your Node.js server!');\n});\nserver.listen(port, () => {\n    console.log(`Server is running at http://localhost:${port}/`);\n});\n//# sourceMappingURL=index.js.map\n\n//# sourceURL=webpack://messenger_for_protei/./src/js/index.js?");
+eval("\n// index.ts\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst http_1 = __importDefault(__webpack_require__(Object(function webpackMissingModule() { var e = new Error(\"Cannot find module 'http'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())));\nconst port = 3000;\nconst server = http_1.default.createServer((req, res) => {\n    res.writeHead(200, { 'Content-Type': 'text/plain' });\n    res.end('Hello, this is your Node.js server!');\n});\nserver.listen(port, () => {\n    console.log(`Server is running at http://localhost:${port}/`);\n});\n//# sourceMappingURL=index.js.map\n\n//# sourceURL=webpack://messenger_for_protei/./src/js/index.js?");
 
 /***/ })
 
