@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "src/js"
+  },
+  "lib": [
+    "es2015"
+  ],
+  "include": [
+    "src/js/index.ts",                         // Пути к исходным файлам TypeScript
+  ],
+  "exclude": ["node_modules"]              // Исключение из компиляции
+}
