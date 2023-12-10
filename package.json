@@ -11,18 +11,23 @@
     "@babel/preset-typescript": "^7.23.3",
     "@types/express": "^4.16.1",
     "@types/node": "^20.10.4",
+    "@types/react": "^18.2.43",
     "babel-cli": "^6.26.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "start": "tsc && babel src -d dist && node src/js/index.js",
+    "start": "tsc && babel src -d dist && node src/js/index.js ",
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "http": "^0.0.1-security",
+    "mobx": "^6.12.0",
+    "mobx-react": "^9.1.0",
     "node.js": "^0.0.1-security",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "stream-http": "^3.2.0",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
